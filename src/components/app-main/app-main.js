@@ -11,12 +11,13 @@ function Main() {
                 <div className="header__logo">
                     <Link to='/enter'><img src={logo} alt='logo'/></Link>
                 </div>
+                <div></div>
                 <div className="header__lang">
                     <button className="header_button__language" onClick={openLang} > Русский </button>
                     <div className='header__lang_en'><p>English</p></div>
                 </div>
                 <div className="header__button">
-                    <button className="header_button btn"><Link to='/films'>ВОЙТИ</Link></button>
+                    <button className="header_button btn"><Link to='/films'>НАЖМИ</Link></button>
                 </div>
             </div>
             <div className='main__description'>

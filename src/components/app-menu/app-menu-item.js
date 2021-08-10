@@ -7,7 +7,7 @@ const MenuItem = ({title,info,content}) => {
             <div className='main__menu-item'>
                 <div className='main__menu-content'>
                     <div className='menu-info'><h1>{title}</h1><h2>{info}</h2></div>
-                    <div className='menu-image'><img src={content} alt='picture'/></div>
+                    <div className='menu-image'><img src={content} alt='content'/></div>
                 </div>
                 <hr/>
             </div> 

@@ -4,6 +4,7 @@ import Menu from '../app-menu/app-menu';
 import MenuBlock from '../app-menu/app-menu-block';
 import Films from '../films/films';
 import Footer from '../app-menu/app-footer';
+import MyFilms from '../my-films/my-films';
 import Service from '../../service/service';
 import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 
@@ -23,6 +24,7 @@ const App = () => {
         <Router>
             <Route path='/enter' component={Enter}/>
             <Route path='/films' component={Films}/>
+            <Route path='/my-films' component={MyFilms}/>
             <Redirect from='/' to='/enter'/>
         </Router>
     )

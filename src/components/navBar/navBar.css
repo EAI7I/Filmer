@@ -28,6 +28,7 @@
     margin-left: 4%;
     filter: brightness(200%);
     margin: 3% 30%;
+    cursor: pointer;
 }
 
 .navBar__content-wrapper {
@@ -41,13 +42,18 @@
     height: auto;
     text-align: center;
     align-self: center;
-    /* justify-self: center; */
+    justify-self: center;
+    align-items: center;
 }
 
-.navigation a {
+.navigation p {
     text-decoration: none;
     color: #fff;
     font-size: 1.4vw;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    align-items: center;    
 }
 
 .navBar__content-user {

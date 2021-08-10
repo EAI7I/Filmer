@@ -7,8 +7,12 @@
 .header {
     height: 20vh;
     display: grid;
-    grid-template-columns: 76% 12% 12%;
+    grid-template-columns: 20% 55% 15% 10%;
     grid-template-rows: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
 }
 
 .header__logo {
@@ -18,21 +22,21 @@
 
 .header__logo img {
     margin-top: 0;
-    width: 10%;
-    margin-left: 4%;
+    width: 30%;
     filter: brightness(180%);
 }
 
 .header__lang {
     width: 100%;
-    margin: 8% auto;
     z-index: 3;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;   
 }
 
 .header_button__language {
     width: 130px;
     height: 30px;
-    margin-left: 30%;
     background-color: #000;
     border: solid #fff 1px;
     border-radius: 3px;

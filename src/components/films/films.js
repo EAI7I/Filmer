@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../navBar/navBar';
 import Content from '../content/content';
 import ContentItem from '../content-item/content-item';
+import Footer from '../app-menu/app-footer';
 
 
 const Films = () => {
@@ -13,6 +14,7 @@ const Films = () => {
             <ContentItem rec={newFilms} title={'Недавно в прокате'}/>
             <ContentItem rec={topFilms} title={'Топ фильмов'}/>
             <ContentItem rec={reductions} title={'Выбор редакции'}/>
+            <Footer footer={footer}/>
         </>
     )
 }
@@ -52,6 +54,13 @@ const reductions = [
   {img:'https://sun9-77.userapi.com/impg/55mLXXQvbWg-l9MWYu-yV3edIGxaYKRQ0fz-eA/3hBTyHMOIBE.jpg?size=300x150&quality=96&sign=cdeef38fe2afaf57c81d9af5ac339267&type=album'},
 ];
 
-filmsRecommended.map((item, i) => {
-    console.log(item.img)
-})
+const footer = [
+    {point1:'Распространенные вопросы',point2:'Для инвесторов', point3:'Конфиденциальность', point4:'Проверка скорости'},
+    {point1:'Центр поддержки',point2:'Вакансии', point3:'Настройки файлов cooki', point4:'Юридические уведомления'},
+    {point1:'Аккаунт',point2:'Способы просмотра', point3:'Корпоративная информация', point4:'Только на Z'},
+    {point1:'Медиацентр',point2:'Правила использования', point3:'Свяжитесь с нами'}
+];
+
+// filmsRecommended.map((item, i) => {
+//     console.log(item.img)
+// })

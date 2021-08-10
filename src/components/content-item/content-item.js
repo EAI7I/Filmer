@@ -22,6 +22,7 @@ const ContentItem =({rec, title}) => {
                         {filmsList}
                 </div>
             </div>
+            <hr/>
         </>
     )
 
